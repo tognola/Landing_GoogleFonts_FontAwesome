@@ -1,0 +1,48 @@
+/*@font-face {
+    font-family: RedRose;
+    src: url('./fonts/RedRose-Bold.ttf');
+  }*/
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial , sans-serif; }
+
+/*
+$primary-color: darkblue;
+$secondary-color: black;
+$bg-color: #333;
+$text-color: white;*/
+body {
+  background-color: lightgrey; }
+
+main {
+  display: block;
+  width: wrap;
+  padding: 5px;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightblue;
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: black; }
+  main img {
+    display: block;
+    margin: 20px auto; }
+  main h1, main p {
+    text-align: center; }
+  main form {
+    display: block;
+    width: 100%; }
+    main form input, main form button {
+      border: 1px solid grey;
+      border-radius: 5px;
+      padding: 5px;
+      display: block;
+      width: 50%;
+      height: 2em;
+      margin: 10px auto; }
+
+/*# sourceMappingURL=style.css.map */
