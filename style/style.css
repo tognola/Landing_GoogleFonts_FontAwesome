@@ -1,11 +1,10 @@
-/*@font-face {
-    font-family: RedRose;
-    src: url('./fonts/RedRose-Bold.ttf');
-  }*/
+@font-face {
+  font-family: RedRose;
+  src: url("./fonts/RedRose-Bold.ttf"); }
 * {
   margin: 0px;
   padding: 0px;
-  font-family: Arial , sans-serif; }
+  font-family: RedRose, cursive; }
 
 /*
 $primary-color: darkblue;

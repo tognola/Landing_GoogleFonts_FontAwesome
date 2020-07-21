@@ -1,13 +1,13 @@
-/*@font-face {
+@font-face {
     font-family: RedRose;
     src: url('./fonts/RedRose-Bold.ttf');
-  }*/
+  }
   
 
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Arial , sans-serif;
+    font-family: RedRose, cursive;
 
 }
 
@@ -25,6 +25,8 @@ $text-color: white;*/
 body{
     background-color: $bg-color;
 }
+
+
 
 main{
     display: block;
@@ -45,13 +47,14 @@ main{
         margin: 20px auto;
     }
 
-    h1, p {
+    h1, p    {
          text-align: center;
     }
 
     form {
         display: block;
         width: 100%;
+        
         input, button{
             border: 1px solid $secondary-color;
             border-radius: 5px;
